@@ -1,0 +1,27 @@
+<head>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="score">
+            0 - 0
+        </div>
+        
+        <div class="item board">
+            <button class="field" onclick="move(0, 0, 0)"><p></p></button>
+            <button class="field" onclick="move(1, 0, 1)"><p></p></button>
+            <button class="field no-r" onclick="move(2, 0, 2)"><p></p></button>
+            <button class="field" onclick="move(3, 1, 0)"><p></p></button>
+            <button class="field" onclick="move(4, 1, 1)"><p></p></button>
+            <button class="field no-r" onclick="move(5, 1, 2)"><p></p></button>
+            <button class="field no-b" onclick="move(6, 2, 0)"><p></p></button>
+            <button class="field no-b" onclick="move(7, 2, 1)"><p></p></button>
+            <button class="field no-b no-r" onclick="move(8, 2, 2)"><p></p></button>
+        </div>
+        <div class="item rst">
+            <button class="btn restart" onclick="restartGame()">Restart</button>
+        </div>
+    </div>
+</body>
